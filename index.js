@@ -5,6 +5,7 @@ const submit_btn = document.querySelector("#submit");
 const output1=document.querySelector("#output")
 
 
+
 function verifyForm() {
 
     var sumOfAngles = (Number(angl1.value) + Number(angl2.value) + Number(angl3.value))
