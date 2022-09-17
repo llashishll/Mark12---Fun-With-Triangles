@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hypotenuse Calculater</title>
+    <title>Hypotenuse Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hypotenuse Calculater</h1>
-    <label>Enter side 1<input type = "number" id = side1></label><br><br>
-    <label>Enter side 2<input type = "number" id = side2></label><br><br>
-    <button id = calculate>Calculate Hypotenuse</button><br><br>
-    <p id = "output"></p>
-    
-    <script src ="hypotenuse.js"></script>
+    <nav class="nav-bar">
+    <h1 class = "main-head">Hypotenuse Calculator</h1>
+
+        <ul class="inline-element">
+
+            <li class="flex-items"><a href="/index.html"> Forms Triangle?</a></li>
+            <li class="flex-items"><a href="/area.html"> Area</a></li>
+            <li class="flex-items"><a href="/hypotenuse.html"> Hypotenuse</a></li>
+            <li class="flex-items"><a href="/quiz.html"> Quiz!</a></li>
+
+
+        </ul>
+    </nav>
+    <div class = "container-first">
+    <label>Enter side 1</label><br>
+    <input type="number" id=side1><br><br>
+    <label>Enter side 2</label><br>
+    <input type="number" id=side2><br><br>
+    <button id=calculate>Calculate Hypotenuse</button><br><br>
+    <p id="output"></p>
+        </div>
+    <script src="hypotenuse.js"></script>
 </body>
+
 </html>
