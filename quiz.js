@@ -2,7 +2,7 @@ const form = document.querySelector(".quizForm")
 const submit_button = document.querySelector("#submit_answer")
 const showOutput = document.querySelector("#output")
 
-const correctAns = ["90", "Right Angle", "Hypotunese", "Equilateral Triangle", "Obtuse Triangle"]
+const correctAns = ["90", "Right Angle", "Hypotenuse", "Equilateral Triangle", "Obtuse Triangle"]
 
 function calculateScore() {
     let score = 0;

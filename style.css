@@ -29,12 +29,23 @@
     text-align: center;
 }
 
+#base,#height{
+text-align: center;
+}
 
-#submit {
+
+#submit,#calculate{
     background-color: aqua;
     font-size: larger;
     border-radius: 2rem;
-}
+  ;}
+ #submit_answer {
+    background-color: aqua;
+    font-size: larger;
+    border-radius: 2rem;    
+    margin-left:43rem ;  }
+
+
 
 #btn {
     background-color: aqua;
@@ -59,4 +70,18 @@ font-size: large;
 }
 .nav-bar{
     background-color: aqua;
+}
+.quizForm{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#output{
+     margin-top: 2rem;
+    font-size: xx-large;
+    margin-left: 33rem;
+
 }
