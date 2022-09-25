@@ -7,6 +7,10 @@
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.container-first input {
+    text-align: center;
+}
+
 
 .main-head {
     background-color: aqua;
@@ -29,21 +33,27 @@
     text-align: center;
 }
 
-#base,#height{
-text-align: center;
+#base,
+#height {
+    text-align: center;
 }
 
 
-#submit,#calculate{
+#submit,
+#calculate {
     background-color: aqua;
     font-size: larger;
     border-radius: 2rem;
-  ;}
- #submit_answer {
+    ;
+}
+
+#submit_answer {
     background-color: aqua;
     font-size: larger;
-    border-radius: 2rem;    
-    margin-left:43rem ;  }
+    border-radius: 2rem;
+    margin-left: 43rem;
+    margin-bottom: 2rem;
+}
 
 
 
@@ -53,25 +63,29 @@ text-align: center;
     border-radius: 2rem;
 
 }
-.inline-element{
-display: flex;
-flex-direction: row;
-list-style: none;
-margin: -0.5rem;
-color: black;
-justify-content: end ;
+
+.inline-element {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: -0.5rem;
+    color: black;
+    justify-content: end;
 
 }
-.flex-items{
-padding: 1rem;
-font-size: large;
+
+.flex-items {
+    padding: 1rem;
+    font-size: large;
 
 
 }
-.nav-bar{
+
+.nav-bar {
     background-color: aqua;
 }
-.quizForm{
+
+.quizForm {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -79,9 +93,12 @@ font-size: large;
     justify-content: center;
 
 }
-#output{
-     margin-top: 2rem;
-    font-size: xx-large;
-    margin-left: 33rem;
 
+#output {
+    font-size: xx-large;
+    text-align: center;
+    border: 2px solid black;
+    max-width: fit-content;
+    margin:auto;
+    background-color: aqua;
 }
