@@ -18,7 +18,7 @@ function calculateScore() {
         }
         index = index + 1;
     }
-    showOutput.innerText = "You got " + score + " answers correct out of 5!"
+    showOutput.innerText = "You got " + score + " answers correct out of 5!" 
 }
 
 submit_button.addEventListener("click", calculateScore)
