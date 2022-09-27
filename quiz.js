@@ -12,7 +12,7 @@ function calculateScore() {
 
     for (let formAns of formResults.values()) {
 
-        if (formAns = correctAns[index]) {
+        if (formAns === correctAns[index]) {
             score = score + 1;
 
         }
