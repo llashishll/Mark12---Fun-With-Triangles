@@ -14,7 +14,7 @@ function calculateArea() {
 
         var area = 1 / 2 * Number(base.value) * Number(height.value)
 
-        output.innerText = " Area of the Triangle is " + area
+        output.innerText = " Area of the Triangle is " + area+ "sq. Units"
 
     }
 }
