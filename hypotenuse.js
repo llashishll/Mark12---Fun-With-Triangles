@@ -14,7 +14,7 @@ function calculateHypotenuse() {
 
         var hypo = Math.sqrt((Number(side_1.value) ** 2) + (Number(side_2.value) ** 2))
 
-        showOutput.innerText = "The value of the Hypotenuse is " + hypo
+        showOutput.innerText = "The value of the Hypotenuse is " + hypo.toFixed(2)
 
     }
 }
