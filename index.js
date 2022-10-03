@@ -7,7 +7,7 @@ const output1 = document.querySelector("#output")
 
 
 function verifyForm() {
-    if (angl1.value < 0 || angl2.value < 0 || angl3.value < 0) {
+    if (angl1.value <= 0 || angl2.value <= 0 || angl3.value <= 0) {
 
         output1.innerText = "Error : All the Values should be greater than 0."
 
